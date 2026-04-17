@@ -66,13 +66,13 @@ feature_order = [
 ]
 
 # Load the trained model
-loaded_model = pickle.load(open("C:/Users/saish/OneDrive/Desktop/Intrusion Detection System NSL KDD/models/rf_classifier.pkl", 'rb'))
+loaded_model = pickle.load(open("C:/Users/saish/OneDrive/Desktop/models/rf_classifier.pkl", 'rb'))
 
 # Email function
 def send_email(to_email, subject, body):
     try:
         # SMTP configuration
-        sender_email = "gainheretech@gmail.com"  # Replace with your email
+        sender_email = "@gmail.com"  # Replace with your email
         sender_password = "vqqt jaeg jkkl zusf"  # Replace with your app-specific password
         smtp_server = "smtp.gmail.com"
         smtp_port = 587
